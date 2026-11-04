@@ -243,8 +243,8 @@ window.GAMES = [
     tags: ['Two player'],
   },
   {
-    id: 'gobble-up',
-    title: 'Gobble Up',
+    id: 'giddy-up',
+    title: 'Giddy Up',
     image: 27,
     players: 'Unknown',
     time: '15 min',
