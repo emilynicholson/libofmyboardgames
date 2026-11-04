@@ -258,7 +258,7 @@ window.GAMES = [
     players: 'Varies',
     time: 'Varies by game',
     minutes: null,
-    tag: 'Family' ,
+    tags: ['Family'],
   },
   {
     id: 'kluster',
