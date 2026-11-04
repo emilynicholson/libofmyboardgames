@@ -402,7 +402,7 @@ window.GAMES = [
     players: '1-5',
     time: '20 min',
     minutes: 20,
-    tags: ['Family' 'Quick'],
+    tags: ['Family' , 'Quick'],
   },
   {
     id: 'six-second-scribbles',
