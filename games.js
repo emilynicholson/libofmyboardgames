@@ -267,7 +267,7 @@ window.GAMES = [
     players: '1-6',
     time: 'Unknown',
     minutes: null,
-    tags: ['Family', 'Quick', 'Two Players'],
+    tags: ['Family', 'Quick'],
   },
   {
     id: 'beat-that',
@@ -430,7 +430,7 @@ window.GAMES = [
     players: '2–6',
     time: '20 min',
     minutes: 20,
-    tags: ['Family''Two Players'],
+    tags: ['Family'],
   },
 
     {
