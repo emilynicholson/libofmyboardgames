@@ -366,7 +366,7 @@ window.GAMES = [
     players: '1–4',
     time: '25 min',
     minutes: 25,
-    tags: [],
+    tags: ['Family'],
   },
   {
     id: 'colour-brain',
