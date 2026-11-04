@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4f0e8">
+    <meta
+      name="description"
+      content="A searchable home board game collection with player counts and play times."
+    >
+    <title>Game Shelf — Our board game collection</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!--
+    <header class="topbar">
+      <a class="brand" href="#top">
+        <span class="brand-icon">▦</span> game shelf
+      </a>
+      <a class="top-link" href="#nfc">
+        NFC tag guide <span>↗</span>
+      </a>
+    </header>
+    -->
+    <main id="top">
+      <!--
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="dot"></span> THE HOME COLLECTION
+          </p>
+          <h1>Pick a game.<br><em>Make a night of it.</em></h1>
+          <p class="intro">
+            A little shelf of games, ready for whoever’s around and however much
+            time we’ve got.
+          </p>
+          <div class="hero-count">
+            <strong id="game-count">47</strong>
+            <span>games in the collection</span>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="sun"></div>
+          <div class="shelf shelf-one">
+            <i>✦</i><i>♟</i><i>▤</i><i>♧</i>
+          </div>
+          <div class="shelf shelf-two">
+            <i>◉</i><i>▱</i><i>✚</i>
+          </div>
+          <span class="art-note">
+            THE NEXT<br>GOOD GAME<br>IS RIGHT HERE
+          </span>
+        </div>
+      </section>
+      -->
+
+      <section class="finder" aria-label="Find a game">
+        <div class="finder-heading">
+          <div>
+            <p class="eyebrow">THE GAME SHELF</p>
+            <h2>What are we playing?</h2>
+          </div>
+          <span id="result-count" class="result-count"></span>
+        </div>
+
+        <div class="controls">
+          <label class="search">
+            <span>⌕</span>
+            <input
+              id="search"
+              type="search"
+              placeholder="Search games…"
+              aria-label="Search games"
+            >
+          </label>
+
+          <label class="select-wrap">
+            <span class="sr-only">Players</span>
+            <select id="players">
+              <option value="all">Any players</option>
+              <option value="2">Can play with 2</option>
+              <option value="3">Can play with 3</option>
+              <option value="4">Can play with 4</option>
+              <option value="5">Can play with 5</option>
+              <option value="6">Can play with 6+</option>
+            </select>
+          </label>
+
+          <label class="select-wrap">
+            <span class="sr-only">Play time</span>
+            <select id="time">
+              <option value="all">Any play time</option>
+              <option value="15">Up to 15 min</option>
+              <option value="30">16–30 min</option>
+              <option value="60">31–60 min</option>
+              <option value="61">Over 60 min</option>
+            </select>
+          </label>
+
+          <button id="clear" class="clear">Reset</button>
+        </div>
+
+        <div id="chips" class="chips">
+          <button class="chip active" data-tag="all">All games</button>
+          <button class="chip" data-tag="Quick">Quick plays</button>
+          <button class="chip" data-tag="Party">Party games</button>
+          <button class="chip" data-tag="Two player">Two player only</button>
+          <button class="chip" data-tag="Family">Family</button>
+        </div>
+
+        <div id="grid" class="grid" aria-live="polite"></div>
+        <div id="empty" class="empty" hidden>
+          No games match those filters. Try a different search.
+        </div>
+      </section>
+
+      <dialog id="game-dialog" class="game-dialog" aria-labelledby="dialog-title">
+        <button class="dialog-close" type="button" aria-label="Close game details">×</button>
+        <img id="dialog-image" class="dialog-image" src="" alt="">
+        <div class="dialog-info">
+          <p id="dialog-tag" class="game-type"></p>
+          <h2 id="dialog-title"></h2>
+          <div class="dialog-meta">
+            <span>♟ &nbsp;<b id="dialog-players"></b> players</span>
+            <span>◷ &nbsp;<b id="dialog-time"></b></span>
+          </div>
+          <p id="dialog-description" class="dialog-description"></p>
+        </div>
+      </dialog>
+      <footer>
+        <span>Made for picking what to play.</span>
+        <a href="#top">Back to top ↑</a>
+      </footer>
+    </main>
+
+    <script src="games.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
+
+
