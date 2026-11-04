@@ -35,7 +35,7 @@ const descriptions = {
   'adventure-time-top-trumps': 'Compare the characters’ stats and decide which one gives you the best chance of winning each round.',
   'uno-flip': 'A double-sided version of UNO. Play matching cards as usual, but a Flip card turns over everyone’s hands and the draw pile to reveal a tougher side.',
   'taco-cat-card-game': 'Description coming soon.',
-  'gobble-up': 'Description coming soon',
+  'giddy-up': 'Description coming soon',
   'horses-ponies-playing-cards': 'A standard deck of playing cards decorated with horses and ponies. Choose a familiar card game to play; player count and length will vary.',
   'kluster': 'Description coming soon.',
   'beat-that': 'Take on quick, ridiculous physical challenges using everyday objects. Predict how well you will do, then see who can beat the challenge.',
