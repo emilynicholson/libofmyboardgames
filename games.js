@@ -159,7 +159,7 @@ window.GAMES = [
     players: '2-4',
     time: '10-15 min',
     minutes: 15,
-    tags: ['Family'],
+    tags: ['Quick'],
   },
   {
     id: 'rainbow-rage',
@@ -264,10 +264,10 @@ window.GAMES = [
     id: 'kluster',
     title: 'kluster',
     image: 30,
-    players: 'Unknown',
+    players: '1-6',
     time: 'Unknown',
     minutes: null,
-    tags: ['Family'],
+    tags: ['Family', 'Quick', 'Two Players'],
   },
   {
     id: 'beat-that',
@@ -285,7 +285,7 @@ window.GAMES = [
     players: '2–8',
     time: '15 min',
     minutes: 15,
-    tags: ['Party'],
+    tags: ['Party', 'Family'],
   },
   {
     id: 'four-in-a-row',
@@ -366,7 +366,7 @@ window.GAMES = [
     players: '1–4',
     time: '25 min',
     minutes: 25,
-    tags: ['Family'],
+    tags: [],
   },
   {
     id: 'colour-brain',
@@ -402,7 +402,7 @@ window.GAMES = [
     players: '1-5',
     time: '20 min',
     minutes: 20,
-    tags: ['Family'],
+    tags: ['Family' 'Quick'],
   },
   {
     id: 'six-second-scribbles',
@@ -430,7 +430,7 @@ window.GAMES = [
     players: '2–6',
     time: '20 min',
     minutes: 20,
-    tags: ['Family'],
+    tags: ['Family''Two Players'],
   },
 
     {
@@ -440,7 +440,7 @@ window.GAMES = [
     players: '4–10',
     time: '20–30 min',
     minutes: 25,
-    tags: ['Family'],
+    tags: ['Family' , 'Party'],
   },
       {
     id: 'may-contain-butts',
@@ -458,7 +458,7 @@ window.GAMES = [
     players: '2–8',
     time: '20–30 min',
     minutes: 25,
-    tags: ['Family'],
+    tags: ['Family','Party'],
   },
 
       {
@@ -468,7 +468,7 @@ window.GAMES = [
     players: '2–10',
     time: '20–30 min',
     minutes: 25,
-    tags: ['Family'],
+    tags: ['Party'],
   },
 
       {
@@ -488,7 +488,7 @@ window.GAMES = [
     players: '3–20',
     time: '20–30 min',
     minutes: 25,
-    tags: ['Family'],
+    tags: ['Party'],
   },
 ];
 
