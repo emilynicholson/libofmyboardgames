@@ -422,5 +422,73 @@ window.GAMES = [
     minutes: 15,
     tags: ['Family'],
   },
+
+    {
+    id: 'youre-my-lobster',
+    title: 'Youre my Lobster',
+    image: 48,
+    players: '2–6',
+    time: '20 min',
+    minutes: 20,
+    tags: ['Family'],
+  },
+
+    {
+    id: 'you-have-got-crabs',
+    title: 'Youve got crabs',
+    image: 49,
+    players: '4–10',
+    time: '20–30 min',
+    minutes: 25,
+    tags: ['Family'],
+  },
+      {
+    id: 'may-contain-butts',
+    title: 'May Contain Butts',
+    image: 50,
+    players: '2–6',
+    time: '15 min',
+    minutes: 15,
+    tags: ['Family'],
+  },
+      {
+    id: 'on-the-scale',
+    title: 'On the scale of one to trex',
+    image: 51,
+    players: '2–8',
+    time: '20–30 min',
+    minutes: 25,
+    tags: ['Family'],
+  },
+
+      {
+    id: 'dont-get',
+    title: 'dont get got',
+    image: 52,
+    players: '2–10',
+    time: '20–30 min',
+    minutes: 25,
+    tags: ['Family'],
+  },
+
+      {
+    id: 'happy-little',
+    title: 'Happy Little dinosaurs',
+    image: 53,
+    players: '2–4',
+    time: '20–30 min',
+    minutes: 25,
+    tags: ['Family'],
+  },
+
+       {
+    id: 'new-phone',
+    title: 'New Phone Who dis',
+    image: 54,
+    players: '3–20',
+    time: '20–30 min',
+    minutes: 25,
+    tags: ['Family'],
+  },
 ];
 
